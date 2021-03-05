@@ -12,8 +12,8 @@ app.set("views", __dirname + "/views");
 app.set("view engine", "hbs");
 
 //setup app routes
-app.get("/home", (req, res) => {
-    res.render("home");
+app.get("/", (req, res) => {
+    res.render("index");
 
 });
 
